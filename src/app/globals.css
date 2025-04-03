@@ -40,3 +40,27 @@ a {
     color-scheme: dark;
   }
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  font-weight: bold;
+}
+
+.navbar > a.active {
+  color: greenyellow;
+}
+
+.navbar2 {
+  color: #ccc;
+}
+
+.content-wrap {
+  padding: 12px;
+}
+
+.food-listing {
+  padding: 12px;
+}
